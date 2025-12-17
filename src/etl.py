@@ -1,1 +1,3 @@
 # Write ETL pipeline code here
+import pandas as pd
+import numpy as np
