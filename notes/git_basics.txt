@@ -1,0 +1,6 @@
+[alias]
+    # 1. A compact, graphical view of your commit history
+    lg = log --graph --oneline --decorate --all
+
+    # 2. Undo the last commit but keep your changes staged
+    uncommit = reset --soft HEAD~1
